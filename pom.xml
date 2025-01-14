@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sevenxchris</groupId>
-	<artifactId>list</artifactId>
+	<artifactId>filmslist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>list</name>
 	<description>projeto java com spring</description>
@@ -42,8 +42,9 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
+			<version>2.3.232</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
